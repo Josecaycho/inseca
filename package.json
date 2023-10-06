@@ -1,0 +1,25 @@
+{
+  "name": "inseca",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nuxt"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nuxt": "2.15.8",
+    "scrollreveal": "^4.0.9",
+    "vue-scroll-reveal": "^2.1.0"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "@nuxtjs/fontawesome": "^1.1.2",
+    "@nuxtjs/vuetify": "^1.12.3",
+    "babel-core": "^6.26.3",
+    "babel-eslint": "^10.1.0"
+  }
+}
