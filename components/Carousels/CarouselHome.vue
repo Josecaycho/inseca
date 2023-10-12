@@ -32,7 +32,6 @@
     computed: {
       heigth () {
         let altura = window.screen;
-        console.log(altura.height)
         return altura.height
       }
     },

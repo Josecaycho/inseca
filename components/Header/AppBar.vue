@@ -16,13 +16,15 @@
           <div class="item" :class="$route.path.includes('/nosotros') ? 'active': ''">
             <nuxt-link to="/nosotros">Nosotros</nuxt-link>
           </div>
-          <div class="item">Servicios</div>
+          <div class="item" :class="$route.path.includes('/Servicios') ? 'active': ''" >
+            <nuxt-link to="/Servicios">Servicios</nuxt-link>
+          </div>
           <div class="item" :class="$route.path.includes('/obras') ? 'active': ''" >
             <nuxt-link to="/obras">Obras</nuxt-link>
           </div>
           <div class="item">Clientes</div>
           <div class="item">
-            <a href="#contacto">Contacto</a>
+            <a @click="redirectContact()">Contacto</a>
           </div>
           <div class="item social">
             <v-icon size="35" color="#fff">mdi-facebook</v-icon>
@@ -54,14 +56,22 @@ export default {
   },
   computed : {
     isRoute () {
-      console.log(this.$route.path)
       return this.$route.path
     },
   },
   mounted() {
   },
   methods: {
-
+    redirectContact () {
+      if (this.$router.currentRoute.path === '/')
+        window.location.href= "#contacto"
+      else {
+        this.$router.push('/')
+        setTimeout(() => {
+          window.location.href= "#contacto"
+        }, 1500);
+      }
+    }
   },
 }
 </script>
