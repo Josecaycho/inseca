@@ -6,19 +6,9 @@
         <v-col cols="12" lg="5" class="d-flex justify-center align-center">
           <div>
             <div class="n-title">Nosotros</div>
-            <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                Pellentesque elit ullamcorper dignissim cras tincidunt lobortis feugiat.
-                Mauris in aliquam sem fringilla ut morbi tincidunt.
-                Aenean sed adipiscing diam donec adipiscing tristique.
-                Sed augue lacus viverra vitae congue.
-                Dis parturient montes nascetur ridiculus.
-                Tincidunt augue interdum velit euismod in.
-                Faucibus interdum posuere lorem ipsum dolor sit amet.
-                Quis blandit turpis cursus in hac habitasse platea dictumst quisque.
-                Mi tempus imperdiet nulla malesuada pellentesque elit eget gravida cum.
-                Ornare quam viverra orci sagittis eu volutpat odio facilisis.
-                Varius vel pharetra vel turpis nunc eget lorem dolor.
-                Sit amet commodo nulla facilisi nullam vehicula ipsum a.
+            <span>Somos una empresa dedicada a brindar servicios integrales de diseño y ejecución en proyectos de ingeniería y construcción a nivel nacional; con el objetivo de garantizar la seguridad, calidad, durabilidad y económia de muestros clientes. Nos enfocamos en utilizar materiales que cumplan con los requisitos y exigencias alineados a los estándares nacionales e internacionales.
+                  Nuestra empresa está gestada por la unión de profesionales con alta experiencia  en el rubro de Especialidades, con un enfoque agudo en el crecimiento diversificado y sostenible.  
+                  Aplicamos nuestra experiencia para beneficiar a nuestros clientes por medio de tecnología avanzada e innovador ofreciendo nuestros servicios a todas las empresas del país en sus diferentes departamentos, poniendo a disposición un equipo de profesionales y técnicos altamente capacitados.
               </span>
             </div>
         </v-col>
@@ -34,7 +24,7 @@
         <v-col cols="12" lg="4">
           <div class="ct-vt">
             <div class="text">
-              Sed augue lacus viverra vitae congue.
+              Ser el ejecutor de obras líder en el mercado, que entrega el mejor servicio al cliente.
             </div>
             <v-icon size="100" class="icon-arrow">mdi-arrow-up-thin</v-icon>
             <div class="icon">
@@ -55,14 +45,22 @@
             </div>
             <v-icon size="100" class="icon-arrow">mdi-arrow-down-thin</v-icon>
             <div class="text">
-              Sed augue lacus viverra vitae congue.
+              Tenemos como misión brindar servicios de ingenieria y construcción con garantia, resolviendo las necesidades de nuestros clientes. <br>
+              Consolidar el liderazgo y confiabilidad en proyectos de Especialidades por su calidad y rentabilidad.
             </div>
           </div>
         </v-col>
         <v-col cols="12" lg="4">
           <div class="ct-vt">
             <div class="text">
-              Sed augue lacus viverra vitae congue.
+              <ul>
+                <li>Trabajo en equipo.</li>
+                <li>Compromiso con nuestros clientes.</li>
+                <li>Calidad e Innovación en los proyectos.</li>
+                <li>Seguridad con nuestros colaboradores.</li>
+                <li>Confianza y seguridad para nuestros clientes.</li>
+                <li>Responsabilidad con la comunidad y el medio ambiente.</li>
+              </ul>
             </div>
             <v-icon size="100" class="icon-arrow">mdi-arrow-up-thin</v-icon>
             <div class="icon">
@@ -211,8 +209,14 @@ export default {
     }
     .text{
       width: 100%;
-      padding: 25px;
+      padding: 25px 50px;
       font-size: 20px;
+      font-weight: 400;
+      ul{
+        li{
+          list-style: none;
+        }
+      }
     }
   }
   .title-cert{
