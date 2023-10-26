@@ -23,7 +23,7 @@
             <nuxt-link to="/obras">Obras</nuxt-link>
           </div>
           <div class="item">Clientes</div>
-          <div class="item">Usuarios</div>
+          <div class="item">Colaboradores</div>
           <div class="item">
             <a @click="redirectContact()">Contacto</a>
           </div>
