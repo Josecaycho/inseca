@@ -53,6 +53,7 @@
           color="#000"
           class="mt-8"
           outlined
+          href="/servicios"
         >
           NUESTROS SERVICIOS
         </v-btn>

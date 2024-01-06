@@ -23,26 +23,21 @@
                 v-for="(obra, i) in item.obras"
                 :key="i"
                 cols="12"
-                md="6"
+                md="4"
                 class="col-item"
               >
-                <v-row>
-                  <v-col cols="12" lg="6">
-                    <img class="img-obra" src="@/assets/Cableado.jpg" alt="" width="100%">
-                  </v-col>
-                  <v-col cols="12" lg="6" class="info-obra">
-                    <div class="info-item">
-                      <div class="info">
-                        <h2>{{obra.proyecto}} </h2>
-                        <div>
-                          <h5>{{obra.cliente}}</h5>
-                          <h3>{{obra.ubicacion}}</h3>
-                          <h3>{{obra.residente}}</h3>
-                        </div>
+                <div class="info-obra">
+                  <img class="img-obra" src="@/assets/Cableado.jpg" alt="" width="100%">
+                  <div class="info-item">
+                    <div class="info">
+                      <div class="d-flex justify-start align-center mb-1"> <v-icon class="mr-1" color="#faca3f">mdi-city</v-icon> <h2>{{obra.proyecto}} </h2></div>
+                      <div class="info-text d-flex justify-space-between">
+                        <div class="d-flex justify-start align-center mb-1"><v-icon class="mr-1" color="#faca3f">mdi-account-tie</v-icon> <h4>{{obra.cliente}}</h4></div>
+                        <div class="d-flex justify-start align-center mb-1"><v-icon class="mr-1" color="#faca3f">mdi-map-marker</v-icon> <span>{{obra.ubicacion}}</span></div>
                       </div>
                     </div>
-                  </v-col>
-                </v-row>
+                  </div>
+                </div>
               </v-col>
             </v-row>
           </v-container>
@@ -54,6 +49,8 @@
 
 <script>
 import Banner from '@/components/Banner.vue'
+import json from '../json/obras.json'
+
 export default {
   name: 'obras',
   components: {
@@ -65,72 +62,7 @@ export default {
   data() {
     return {
       tab: null,
-      items: [
-        {id: 1 , 'name': 'Año 2022', obras: 
-          [{
-            cliente: 'Amauta 2272 S.A.C',
-            proyecto: 'Festiva',
-            ubicacion: 'Brena',
-            residente: 'ING. Jorge Zegarra'
-          }] 
-        },
-        {id: 2 , 'name': 'Año 2021 - 2020', obras: 
-          [{
-            cliente: 'Maezztra S.A.C',
-            proyecto: 'V ONE',
-            ubicacion: 'Surquillo',
-            residente: 'ING. Francisco Mejia'
-          }] 
-        },
-        {id: 3 , 'name': 'Año 2019 - 2018', obras: 
-          [{
-            cliente: 'Inversiones en inmuebles lima s.a.c',
-            proyecto: 'Boss',
-            ubicacion: 'San Isidro',
-            residente: 'ING. Darwin Lopez'
-          }] 
-        },
-        {id: 4 , 'name': 'Año 2017', obras: 
-          [{
-            cliente: 'Camali construcciones s.a.c',
-            proyecto: 'Asuncion',
-            ubicacion: 'Los olivos',
-            residente: 'ARQ. Mario Celiz'
-          }]}
-        ,
-        {id: 5 , 'name': 'Año 2016', obras: 
-          [{
-            cliente: 'Camali construcciones s.a.c',
-            proyecto: 'Caraz',
-            ubicacion: 'Los olivos',
-            residente: 'ING. Carlos Zevallos Rivero'
-          }]}
-        ,
-        {id: 6 , 'name': 'Año 2015', obras: 
-          [{
-            cliente: 'Camali construcciones s.a.c',
-            proyecto: 'Villa los angeles',
-            ubicacion: 'Los olivos',
-            residente: 'ARQ. Mario Celiz'
-          }]}
-        ,
-        {id: 7 , 'name': 'Año 2014', obras: 
-          [{
-            cliente: 'PRomociones E Inversiones Nacionales s.a.c',
-            proyecto: 'Mariscal Castilla',
-            ubicacion: 'Miraflores',
-            residente: 'Ing. Angelic Trujillo'
-          }]}
-        ,
-        {id: 8 , 'name': 'Año 2013', obras: 
-          [{
-            cliente: 'Universidad Alas peruanas',
-            proyecto: 'Facultad ING. Civil',
-            ubicacion: 'Pachacamac',
-            residente: 'ING. Carlos Galloso'
-          }]}
-
-      ]
+      items: json
     }
   },
   methods: {
@@ -171,26 +103,23 @@ export default {
       font-size: 20px;
     }
     .col-item{
-      margin-bottom: 120px;
+      margin-bottom: 50px;
     }
     .info-obra{
       position: relative;
       .info-item{
-        height: calc(100% - 100px);
-        width: calc(100% - 50px);
         display: flex;
-        justify-content: center;
+        justify-content: start;
         align-items: center;
-        background: #fff;
         padding: 10px;
         position: absolute;
-        left: -30px;
-        top: 55px;
-        border: 5px solid #faca3f;
-        border-radius: 15px;
+        bottom: 0;
+        background: white;
+        width: 100%;
 
         .info{
-          background-color: #fff !important;
+          background-color: transparent !important;
+          width: 100%;
         }
       }
     }
@@ -199,6 +128,19 @@ export default {
 @media (max-width: 587px) {
   .obras{
     margin: 0;
+    .it-obra {
+      margin: 0 !important;
+      padding: 0;
+      .info-obra{
+        .info-item{
+          .info {
+            .info-text {
+              display: block !important;
+            }
+          }
+        }
+      }
+    }
   }
   .v-slide-group__prev, .v-slide-group__next {
     display: none !important;

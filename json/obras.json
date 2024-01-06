@@ -1,0 +1,363 @@
+[
+  {
+    "id": 1 , 
+    "name": "Año 2022", 
+    "obras": [
+      {
+        "cliente": "AMAUTA 2272 S.A.C.",
+        "proyecto": "FESTIVA",
+        "ubicacion": "BREÑA",
+        "residente": "ING. JORGE ZEGARRA"
+       },
+       {
+        "cliente": "T-OBRASEG S.A.C. ",
+        "proyecto": "SAN FELIPE",
+        "ubicacion": "JESUS MARÍA",
+        "residente": "ING. JHON NERVI"
+       },
+       {
+        "cliente": "DE & AD INGENIEROS  S.A.C",
+        "proyecto": "MARTH",
+        "ubicacion": "SURQUILLO",
+        "residente": "ING. MILAGROS MARILUZ"
+       },
+       {
+        "cliente": "DE & AD INGENIEROS  S.A.C",
+        "proyecto": "PIETRA DI LUNA",
+        "ubicacion": "JESUS MARÍA",
+        "residente": "ING. JOSE VASQUEZ"
+       },
+       {
+        "cliente": "DE & AD INGENIEROS  S.A.C",
+        "proyecto": "PIETRA DI SOLE",
+        "ubicacion": "SANTIAGO DE SURCO",
+        "residente": "ING. JOHEL ULLOA"
+       },
+       {
+        "cliente": "GRUPO ABRIL",
+        "proyecto": "AMARELO",
+        "ubicacion": "JESUS MARÍA",
+        "residente": "ING. PERCY HUERTA"
+       },
+       {
+        "cliente": "C Y V INMOBILIARIA S.A.C.",
+        "proyecto": "CIPRESES",
+        "ubicacion": "SAN JUAN DE LURIGANCHO",
+        "residente": "EDWIN PORTUGAL"
+       }
+    ] 
+  },
+  {
+    "id": 2 , 
+    "name": "Año 2021 - 2020", 
+    "obras": [
+      {
+        "cliente": "MAEZZTRA S.A.C.",
+        "proyecto": "V ONE",
+        "ubicacion": "SURQUILLO",
+        "residente": "ING. FRANCISCO MEJIA"
+       },
+       {
+        "cliente": "LA MURALLA",
+        "proyecto": "NOMADE",
+        "ubicacion": "SANTIAGO DE SURCO",
+        "residente": "ING. GUILLERMO CONTRERAS"
+       },
+       {
+        "cliente": "LA MURALLA",
+        "proyecto": "CARDINAL",
+        "ubicacion": "SANTIAGO DE SURCO",
+        "residente": "ING. BILL SEGOVIA"
+       },
+       {
+        "cliente": "DE & AD INGENIEROS  S.A.C",
+        "proyecto": "TERRA",
+        "ubicacion": "SANTIAGO DE SURCO",
+        "residente": "ING. MILAGROS MARILUZ"
+       },
+       {
+        "cliente": "DE & AD INGENIEROS  S.A.C",
+        "proyecto": "AMELIE",
+        "ubicacion": "SANTIAGO DE SURCO",
+        "residente": "ING. ANDRES ESPINOZA"
+       },
+       {
+        "cliente": "DE & AD INGENIEROS  S.A.C",
+        "proyecto": "NACARINO",
+        "ubicacion": "BREÑA",
+        "residente": "ING. ALESSANDRA GUISADO"
+       },
+       {
+        "cliente": "DE & AD INGENIEROS  S.A.C",
+        "proyecto": "PORTOFINO",
+        "ubicacion": "MAGDALENA DEL MAR",
+        "residente": "ING. JOSE VASQUEZ"
+       },
+       {
+        "cliente": "T-OBRASEG S.A.C. ",
+        "proyecto": "PACHACUTEC",
+        "ubicacion": "JESUS MARÍA",
+        "residente": "ING. ANGELA BALLENAS"
+       },
+       {
+        "cliente": "ALBACON OJEDA S.A.C. ",
+        "proyecto": "GINGULART",
+        "ubicacion": "MIRAFLORES",
+        "residente": "ING. ALDO CERNA"
+       },
+       {
+        "cliente": "JAVIER TORI ROASIO",
+        "proyecto": "LIV18",
+        "ubicacion": "MIRAFLORES",
+        "residente": "ING. BRUNO OLIART"
+       },
+       {
+        "cliente": "PMS-DRS",
+        "proyecto": "PRIVÉ",
+        "ubicacion": "MIRAFLORES",
+        "residente": "ING. JULIO PACHECO"
+       },
+       {
+        "cliente": "GRUPO ABRIL",
+        "proyecto": "CEREZOS",
+        "ubicacion": "JESUS MARÍA",
+        "residente": "ING. RICHARD CASTAÑEDA"
+       },
+       {
+        "cliente": "GRUPO ABRIL",
+        "proyecto": "CALA",
+        "ubicacion": "JESUS MARÍA",
+        "residente": "ING. FERNANDO ESPINOZA"
+       },
+       {
+        "cliente": "GRUPO ABRIL",
+        "proyecto": "DAMASCO",
+        "ubicacion": "JESUS MARÍA",
+        "residente": "ING. PERCY HUERTO"
+       },
+       {
+        "cliente": "COSAPI",
+        "proyecto": "NESTA ",
+        "ubicacion": "JESUS MARÍA",
+        "residente": "ING. OSCAR PACHECO"
+       }
+    ] 
+  },
+  {
+    "id": 3 , 
+    "name": "Año 2019 - 2018", 
+    "obras": [
+      {
+        "cliente": "INVERSIONES EN INMUEBLES LIMA S.A.C",
+        "proyecto": "BOSS",
+        "ubicacion": "SAN ISIDRO",
+        "residente": "ING. DARWIN LOPEZ"
+       },
+       {
+        "cliente": "CODECON INGENIERÍA Y CONSTRUCCIÓN S.A.C.",
+        "proyecto": "ART&U",
+        "ubicacion": "BARRANCO",
+        "residente": "ING. CRISTHIAN CAÑA"
+       },
+       {
+        "cliente": "CODECON INGENIERÍA Y CONSTRUCCIÓN S.A.C.",
+        "proyecto": "LOOK",
+        "ubicacion": "LINCE",
+        "residente": "ING. JHONSON ASTO"
+       },
+       {
+        "cliente": "CONSTRUCTORA E INMOBILIARIA DIKASA S.A.C. ",
+        "proyecto": "TRADICIONES ",
+        "ubicacion": "SAN ISIDRO",
+        "residente": "ING. JAIME MIBANCO"
+       },
+       {
+        "cliente": "INMOBILIARÍA FERMONT S.A.C.",
+        "proyecto": "ABEDUL",
+        "ubicacion": "MAGDALENA DEL MAR",
+        "residente": "ING. GUILLERMO CONTRERAS"
+       }
+    ] 
+  },
+  {
+    "id": 4 , 
+    "name": "Año 2017", 
+    "obras": [
+      {
+        "cliente": "CAMALI CONSTRUCCIONES S.A.C.",
+        "proyecto": "ASUNCION",
+        "ubicacion": "LOS OLIVOS",
+        "residente": "ARQ. MARIO CELIZ"
+       },
+       {
+        "cliente": "CONTRUCCTORA SANTA LUCIA S.A.C.",
+        "proyecto": "SUCRE ",
+        "ubicacion": "SAN ISIDRO",
+        "residente": "ING. MARCOS GOACHT"
+       },
+       {
+        "cliente": "CONTRUCCTORA SAN CLEMENTE S.A.C. ",
+        "proyecto": " JACINTO LARA",
+        "ubicacion": "SAN ISIDRO",
+        "residente": "ING. MARCOS GOACHT",
+        "Column20": 3
+       },
+       {
+        "cliente": " INMOBILIARIA OLIVA Y TAMAYO S.A.C.",
+        "proyecto": "CASA CLUB DEL EJECITO LA    TIZA I Y II",
+        "ubicacion": "PUCUSANA",
+        "residente": "ING. MARCOS GOACHT"
+       },
+       {
+        "cliente": "WESCON INGENIERIA Y CONTRUCCIONES S.A.C. ",
+        "proyecto": "NESTA F - I,II",
+        "ubicacion": "JESUS MARÍA",
+        "residente": "ING. JULIO PANTAROZA"
+       },
+       {
+        "cliente": "WESCON INGENIERIA Y CONTRUCCIONES S.A.C. ",
+        "proyecto": "COSTANERA 25 ",
+        "ubicacion": "SAN MIGUEL",
+        "residente": "ING. JOHNNY CERNA"
+       },
+       {
+        "cliente": "CONSTRUCTORA E INMOBILIARIA DIKASA S.A.C. ",
+        "proyecto": "TRADICIONES ",
+        "ubicacion": "SANTIAGO DE SURCO",
+        "residente": "ING. JAIME MIBANCO"
+       }
+    ]
+  },
+  {
+    "id": 5 , 
+    "name": "Año 2016", 
+    "obras": [
+      {
+        "cliente": "CAMALI CONSTRUCCIONES S.A.C.",
+        "proyecto": "CARAZ ",
+        "ubicacion": "LOS OLIVOS",
+        "residente": "ING. CARLOS ZEVALLOS RIVERO"
+       },
+       {
+        "cliente": "T Y G INGENIERIA Y CONSTRUCCIÓN S.A.C.",
+        "proyecto": "TORRES DE OLMEDO ",
+        "ubicacion": "BREÑA",
+        "residente": "ING. MAURICIO MORALES"
+       },
+       {
+        "cliente": "CONSTRUCTORA GRUPO 3 S.A.C.",
+        "proyecto": "SAN FRANCISCO ",
+        "ubicacion": "MAGDALENA",
+        "residente": "ING. FELIX VELASQUEZ"
+       },
+       {
+        "cliente": "D Y M COSTRUCCTORA E INMOBILIARIA S.A.C.",
+        "proyecto": "WIESSE II - ",
+        "ubicacion": "ATE",
+        "residente": "ING. PEDRO CRUZ"
+       },
+       {
+        "cliente": "COSTRUCCIONES VANGUARDISTAS S.A.C.",
+        "proyecto": "CAJA ICA",
+        "ubicacion": "CHINCHA",
+        "residente": "ING. MAURICIO MORALES"
+       },
+       {
+        "cliente": "CONSTRUCTORA E INMOBILIARIA RH S.A.C.",
+        "proyecto": "AREQUIPA CENTRAL ",
+        "ubicacion": "LINCE",
+        "residente": "ING. OSCAR PACHECO MEDINA"
+       }
+    ]
+  },
+  {
+    "id": 6 , 
+    "name": "Año 2015", 
+    "obras": [
+      {
+        "cliente": "CAMALI CONSTRUCCIONES S.A.C.",
+        "proyecto": "VILLA LOS ANGELES ",
+        "ubicacion": "LOS OLIVOS",
+        "residente": "ARQ. MARIO CELIS VIDAL MATOS"
+       },
+       {
+        "cliente": "CAMALI CONSTRUCCIONES S.A.C.",
+        "proyecto": "AGUA MARINA ",
+        "ubicacion": "LOS OLIVOS",
+        "residente": "ARQ. MARIO CELIS VIDAL MATOS"
+       },
+       {
+        "cliente": "FEVAVICVA CONSTRUCTORA S.A.C.",
+        "proyecto": "MONTECASINO ",
+        "ubicacion": "SANTIAGO DE SURCO",
+        "residente": "ING. CARLOS GALLOSO RAMOS"
+       },
+       {
+        "cliente": "INVERSIONES EN INMUEBLES LIMA S.A.C",
+        "proyecto": "SOLARIA ",
+        "ubicacion": "SANTIAGO DE SURCO",
+        "residente": "ING. CARLOS ZEVALLOS RIVERO"
+       }
+    ]
+  },
+  {
+    "id": 7 , 
+    "name": "Año 2014", 
+    "obras": [
+      {
+        "cliente": "PROMOCIONES E INVERSIONES NACIONALES S.A.C. ",
+        "proyecto": "MARISCAL CASTILLA ",
+        "ubicacion": "MIRAFLORES",
+        "residente": "ING. ANGELICA TRUJILLO"
+       },
+       {
+        "cliente": "INVERSIONES EN INMUEBLES LIMA S.A.C",
+        "proyecto": "CORPAC II ",
+        "ubicacion": "SAN ISIDRO",
+        "residente": "ING. OSCAR PACHECO MEDINA"
+       },
+       {
+        "cliente": "INVERSIONES EN INMUEBLES LIMA S.A.C",
+        "proyecto": "TOSCANA ",
+        "ubicacion": "CHORRILLOS",
+        "residente": "ING. OSCAR PACHECO MEDINA"
+       },
+       {
+        "cliente": "T Y G CONSTRUCCIONES E INMOBILIARIAS",
+        "proyecto": "SATURNO ",
+        "ubicacion": "LOS OLIVOS",
+        "residente": "ING. CARLOS TRINIDAD"
+       }
+    ]
+  },
+  {
+    "id": 8 , 
+    "name": "Año 2013", 
+    "obras": [
+      {
+        "cliente": "UNIVERSIDAD ALAS PERUANAS",
+        "proyecto": "FACULTAD ING. CIVIL ",
+        "ubicacion": "PACHACAMAC ",
+        "residente": "ING.  CARLOS GALLOSO RAMOS"
+       },
+       {
+        "cliente": "FAMILIA AKIRA NAUPAY",
+        "proyecto": "CASA DE CAMPO",
+        "ubicacion": "PACHACAMAC ",
+        "residente": "AKIRA NAUPAY"
+       },
+       {
+        "cliente": "BRAGIA CONSTRUCTORA S.A.C",
+        "proyecto": "SEÑORITAS ",
+        "ubicacion": " PUNTA HERMOSA",
+        "residente": "ING. GUILLERMO BRAEN"
+       },
+       {
+        "cliente": "CONTRUCCIONES CAMALI S.A.C.",
+        "proyecto": "NEWTON ",
+        "ubicacion": "LOS OLIVOS",
+        "residente": "ARQ. MARIO CELIS VIDAL MATOS"
+       }
+    ]
+  }
+]
