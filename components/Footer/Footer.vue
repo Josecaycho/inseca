@@ -17,7 +17,7 @@
                   <v-icon color="#fff">mdi-plus</v-icon>
                 </v-col>
                 <v-col class="tx" cols="10">
-                  <div>Av. avenida Mz C lote 44 , Lima - Perú</div>
+                  <div>Los Olivos , Lima - Perú</div>
                 </v-col>
               </v-row>
               <v-row class="fc-info-item">
@@ -25,7 +25,8 @@
                   <v-icon color="#fff">mdi-plus</v-icon>
                 </v-col>
                 <v-col class="tx" cols="10">
-                  <div>(511) 000 – 0000</div>
+                  <div>972349203 | Proyectos</div>
+                  <div>936801618 | Administración</div>
                 </v-col>
               </v-row>
               <v-row class="fc-info-item">
@@ -33,7 +34,7 @@
                   <v-icon color="#fff">mdi-plus</v-icon>
                 </v-col>
                 <v-col class="tx" cols="10">
-                  <div>inseca@inseca.com</div>
+                  <div>ventas@inseca.com.pe</div>
                 </v-col>
               </v-row>
             </div>

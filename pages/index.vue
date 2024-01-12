@@ -12,33 +12,33 @@
           <v-col cols="12" lg="3" class="pa-4">
             <div class="item-info">
               <div class="image">
-                <img :src="imagenDefecto" width="200">
+                <img src="@/assets/experiencia.png" width="200">
               </div>
-              <div class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</div>
+              <div class="text">Mas de 10 años de amplia experiencia en el rubro.</div>
             </div>
           </v-col>
           <v-col cols="12" lg="3" class="pa-4">
             <div  class="item-info">
               <div class="image">
-                <img :src="imagenDefecto" width="200">
+                <img src="@/assets/compromiso.png" width="200">
               </div>
-              <div class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</div>
+              <div class="text">Compromiso para cumplir los objetivos del cliente.</div>
             </div>
           </v-col>
           <v-col cols="12" lg="3" class="pa-4">
             <div  class="item-info">
               <div class="image">
-                <img :src="imagenDefecto" width="200">
+                <img src="@/assets/optimizacion.png" width="200">
               </div>
-              <div class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</div>
+              <div class="text">Innovación y optimización de costos.</div>
             </div>
           </v-col>
           <v-col cols="12" lg="3" class="pa-4">
             <div  class="item-info">
               <div class="image">
-                <img :src="imagenDefecto" width="200">
+                <img src="@/assets/puntualidad.png" width="200">
               </div>
-              <div class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</div>
+              <div class="text">Puntualidad</div>
             </div>
           </v-col>
         </v-row>
@@ -267,6 +267,11 @@ export default {
     transform: translateY(-2px);
     box-shadow: 0 9px 22px rgba(0, 0, 0, 0.25), 0 4px 10px rgba(0, 0, 0, 0.22);
     border-radius: 20px;
+  }
+
+  .item-info .text {
+    font-size: 17px;
+    font-weight: 500;
   }
 
 /* banner */

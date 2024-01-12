@@ -1,0 +1,82 @@
+[
+  {
+    "name": "abril",
+    "formato": "png",
+    "color": "#006ca1"
+  },
+  {
+    "name": "imagina",
+    "formato": "svg",
+    "color": "#000"
+  },
+  {
+    "name": "rumi",
+    "formato": "svg",
+    "color": "#fff"
+  },
+  {
+    "name": "pmsdrs",
+    "formato": "png",
+    "color": "#fff"
+  },
+  {
+    "name": "triada",
+    "formato": "png",
+    "color": "#fff"
+  },
+  {
+    "name": "proyec",
+    "formato": "png",
+    "color": "#fff"
+  },
+  {
+    "name": "codecon",
+    "formato": "jpg",
+    "color": "#fff"
+  },
+  {
+    "name": "actual",
+    "formato": "png",
+    "color": "#0082cd"
+  },
+  {
+    "name": "creativa",
+    "formato": "png",
+    "color": "#ffc100"
+  },
+  {
+    "name": "cyv",
+    "formato": "png",
+    "color": "#045cb4"
+  },
+  {
+    "name": "madrid",
+    "formato": "svg",
+    "color": "#fff"
+  },
+  {
+    "name": "grupolar",
+    "formato": "png",
+    "color": "#fff"
+  },
+  {
+    "name": "lamuralla",
+    "formato": "png",
+    "color": "#fff"
+  },
+  {
+    "name": "natturale",
+    "formato": "svg",
+    "color": "#5f7361"
+  },
+  {
+    "name": "ditrenzo",
+    "formato": "png",
+    "color": "#fff"
+  },
+  {
+    "name": "camali",
+    "formato": "png",
+    "color": "#001DFFF0"
+  }
+]

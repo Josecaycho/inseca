@@ -22,7 +22,9 @@
           <div class="item" :class="$route.path.includes('/obras') ? 'active': ''" >
             <nuxt-link to="/obras">Obras</nuxt-link>
           </div>
-          <div class="item">Clientes</div>
+          <div class="item" :class="$route.path.includes('/clientes') ? 'active': ''" >
+            <nuxt-link to="/clientes">Clientes</nuxt-link>
+          </div>
           <div class="item">Colaboradores</div>
           <div class="item">
             <a @click="redirectContact()">Contacto</a>
@@ -78,22 +80,53 @@ export default {
 </script>
 
 <style lang="css">
-  .page-enter-active,
-  .page-leave-active {
-    transition: opacity 0.6s;
-  }
-  .page-enter,
-  .page-leave-to {
-    opacity: 0;
+
+  @keyframes show{ 
+    from {
+      opacity: 0;
+      scale: 25%;
+      transition: all 0.5s;
+    }
+    to {
+      opacity: 1;
+      scale: 100%;
+      transition: all 0.5s;
+    }
   }
 
-  .layout-enter-active,
-  .layout-leave-active {
-    transition: opacity 0.6s;
+  .image, .banner-servicios, .content-obras-title, .content-contact, .content-message, .sec-nos, .title-cert, .item-cert{
+    view-timeline-name: --image;
+    view-timeline-axis: block;
+    animation-timeline: --image;
+    animation-name: show;
+    animation-range: entry 25% cover 50%;
+    animation-fill-mode: both;
   }
-  .layout-enter,
-  .layout-leave-to {
+
+  .slide-right-enter-active,
+  .slide-right-leave-active {
+    transition: all 0.5s;
+  }
+
+  .slide-right-enter-from{
     opacity: 0;
+    transform: translate(-50px, 0);
+  }
+
+  .slide-right-leave-to{
+    opacity: 0;
+    transform: translate(50px, 0);
+  }
+
+  .page-enter-active,
+  .page-leave-active {
+    transition: all 0.5s;
+  }
+
+  .page-enter-from,
+  .page-leave-to {
+    opacity: 0;
+    transform: translate(-50px, 0);
   }
 
 
